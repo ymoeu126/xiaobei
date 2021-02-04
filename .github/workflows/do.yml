@@ -32,7 +32,5 @@ jobs:
         python -m pip install --upgrade pip
     - name: 'working'
       run: |
-        username: ${{ secrets.USERNAME }}
-        pd: ${{ secrets.PASSWORD }}
-        SCKEY: ${{ secrets.SCKEY }}
-        python 2.py
+        
+        python 2.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} ${{ secrets.SCKEY }}
