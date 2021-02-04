@@ -33,6 +33,6 @@ jobs:
     - name: 'working'
       run: |
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        pd: ${{ secrets.PASSWORD }}
         SCKEY: ${{ secrets.SCKEY }}
         python 2.py
