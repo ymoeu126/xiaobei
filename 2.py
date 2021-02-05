@@ -5,7 +5,7 @@ import base64
 import os
 import json
 
-username= os.getenv("XIAOBEI-USERNAME")
+username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
 password=base64.b64encode(pd.encode())
 password=password.decode()
