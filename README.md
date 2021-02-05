@@ -14,9 +14,11 @@
 ![](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
 ## 三、启用Action
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
-2 修改任意文件后提交一次  
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 
+2，点击**code**，再点击笔,在第十行随便输入东西，然后往下滑动点击commint change
+![](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
+![](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
 ## 四、查看运行结果
 Actions > Cloud189Checkin > build  
 能看到如下图所示，表示成功  
