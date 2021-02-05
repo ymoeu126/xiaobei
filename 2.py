@@ -35,7 +35,7 @@ uuid=q1.json()['uuid']
 
 post_data={
     "username":username,
-    "password":password,
+    "password":password.decode(),
     "code":code,
     "uuid":uuid}
 
