@@ -48,9 +48,9 @@ print(response2.json())
 
 #server酱
 api = "https://sc.ftqq.com/"+SCKEY+".send"
-server酱_data = {
+server_data = {
     "text": '小北同学打卡',
     "desp": response2.json()['msg']
 }
-requests.post(api, data = server酱_data)
+requests.post(api, data = server_data)
 
