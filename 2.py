@@ -1,5 +1,6 @@
 import requests
 import base64
+import os
 
 username= os.environ["XIAOBEI_USERNAME"]
 pd= os.environ["XIAOBEI_USERNAME"]
