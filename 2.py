@@ -3,7 +3,7 @@ import base64
 import os
 
 username= os.environ["XIAOBEI_USERNAME"]
-pd= os.environ["XIAOBEI_USERNAME"]
+pd= os.environ["XIAOBEI_PASSWORD"]
 password=base64.b64encode(pd.encode())
 SCKEY = os.environ["XIAOBEI_SCKEY"]
 
