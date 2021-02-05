@@ -22,6 +22,7 @@ jobs:
     - name: 'Get points'
       env:
         XIAOBEI_USERNAME: ${{ secrets.XIAOBEI_USERNAME }}
-        XIOABEI_PASSWORD: ${{ secrets.XIAOBEI_PASSWORD }}
-        XIOABEI_SCKEY: ${{ secrets.XIAOBEI_SCKEY }}
+        XIAOBEI_PASSWORD: ${{ secrets.XIAOBEI_PASSWORD }}
+        XIAOBEI_SCKEY: ${{ secrets.XIAOBEI_SCKEY }}
+      
       run: python 2.py
