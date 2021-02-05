@@ -8,8 +8,8 @@ SCKEY = ''
 
 temperature={
     "temperature": "36.3",
-    "coordinates": "中国-重庆-重庆市-南岸区",
-    "location": "106.57697,29.478651",
+    "coordinates": "中国-江西省-鹰潭市-月湖区",
+    "location": "117.05768,28.261384",
     "healthState": "1",
     "dangerousRegion": "2",
     "remark": ""
