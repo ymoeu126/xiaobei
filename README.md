@@ -21,7 +21,7 @@
 ![](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
 ![](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
-Actions > Cloud189Checkin > build  
+Actions  > Cloud189Checkin > build  
 能看到如下图所示，表示成功  
 ![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
 
