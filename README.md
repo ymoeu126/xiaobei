@@ -3,6 +3,10 @@
 ## **首先准备好一个github账号,注册链接[github](https://github.com/)**
 ## 该步骤非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
 ### 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在发送消息中得到SCKEY值
+
+## 先点击2.py,找到temporary中的代码，若在永川不修改，其他地区请修改。
+### 修改地址格式为**中国-重庆市-重庆市-永川区**，经纬度自行百度找到当地的经纬度填写
+
 # Github Actions说明
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
@@ -25,7 +29,7 @@
 ## 四、查看运行结果
 Actions  > xioabei daka > build  
 能看到如下图所示，表示成功  
-![](![](https://i.loli.net/2021/02/05/iXz96WZeScOIGbE.png))
+![](https://i.loli.net/2021/02/05/iXz96WZeScOIGbE.png)
 
 此后，将会在每天10:00和22:00各签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改 
