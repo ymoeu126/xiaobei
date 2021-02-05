@@ -46,9 +46,8 @@ token=q2.json()['token']
 headers["Authorization"] ='Bearer ' +token
 
 response2 = session.post(health_url,json = temperature,headers = headers)
-if responese2.status_code == 200:
-    message='打卡成功'
-    
+if response2.status_code == 200:
+    message='打卡成功'   
 else:
     message='请仔细阅读步骤,或者出现了bug'
 print(message)    
