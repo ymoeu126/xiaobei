@@ -18,7 +18,8 @@
 
 2，点击**code**，再点击笔,在第十行随便输入东西，然后往下滑动点击commint change
 ![](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
-![](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
+![](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
+![](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
 Actions > Cloud189Checkin > build  
 能看到如下图所示，表示成功  
