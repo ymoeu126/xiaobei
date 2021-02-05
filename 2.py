@@ -8,7 +8,7 @@ import json
 username= "XIAOBEI_USERNAME"
 pd= "XIAOBEI_PASSWORD"
 password=base64.b64encode(pd.encode())
-password=password..decode()
+password=password.decode()
 SCKEY = "XIAOBEI_SCKEY"
 
 temperature={
