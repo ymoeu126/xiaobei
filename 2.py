@@ -1,10 +1,10 @@
 import requests
 import base64
 
-username=''
-pd=''
+username= os.environ["XIAOBEI_USERNAME"]
+pd= os.environ["XIAOBEI_USERNAME"]
 password=base64.b64encode(pd.encode())
-SCKEY = ''
+SCKEY = os.environ["XIAOBEI_SCKEY"]
 
 temperature={
     "temperature": "36.3",
