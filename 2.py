@@ -46,13 +46,17 @@ token=q2.json()['token']
 headers["Authorization"] ='Bearer ' +token
 
 response2 = session.post(health_url,json = temperature,headers = headers)
-print(response2.json()['msg'])
-
+if responese2.status_code == 200:
+    message='打卡成功'
+    
+else:
+    message='请仔细阅读步骤,或者出现了bug'
+print(message)    
 #server酱
 api = "https://sc.ftqq.com/"+SCKEY+".send"
 server_data = {
     "text": '小北同学打卡',
-    "desp": response2.json()['msg']
+    "desp": message
 }
 requests.post(api, data = server_data)
 
