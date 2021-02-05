@@ -1,4 +1,5 @@
 # 小北健康打卡
+## 该代码可直接运行在本地，只需要将2.py中代码复制到本地和修改账号密码即可
 ## **首先准备好一个github账号,注册链接[github](https://github.com/)**
 ## 该步骤非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
 ### 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在发送消息中得到SCKEY值
