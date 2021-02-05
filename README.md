@@ -5,11 +5,11 @@
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 ## 二、设置账号密码
-![添加账号](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
+
 添加名为**XIAOBEI_USERNAME**、**XIAOBEI_PASSWORD**,**XIAOBEI_SCKEY**的变量  
 值分别为**账号**、**密码**,**server酱sckey值**  
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
-
+![](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
 ## 三、启用Action
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
 2 修改任意文件后提交一次  
