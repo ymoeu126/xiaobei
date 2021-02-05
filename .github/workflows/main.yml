@@ -1,0 +1,26 @@
+name: 'xiaobei daka'
+
+on:
+  push:
+    branches: 
+      - master
+  schedule:
+    - cron: '0 0 2 * *'
+
+jobs:
+  get_points:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'Checkout codes'
+      uses: actions/checkout@v2
+    - name: 'Set python'
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: 'Install dependencies'
+      run: python -m pip install --upgrade requests pyaes
+    - name: 'Get points'
+      env:
+        XIAOBEI_USERNAME: ${{ secrets.XIAOBEI_USERNAME }}
+        XIOABEI_PASSWORD: ${{ secrets.XIAOBEI_PASSWORD }}
+      run: python 2.py
