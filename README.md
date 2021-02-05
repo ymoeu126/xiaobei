@@ -8,7 +8,7 @@
 ## 二、设置账号密码
 
 添加名为**XIAOBEI_USERNAME**、**XIAOBEI_PASSWORD**、**XIAOBEI_SCKEY**的变量  
-值分别为**账号**、**密码**、**server酱sckey值**  
+值分别为**账号**、**密码**、**server酱SCKEY值**（若不知道什么是server酱该空可不填）  
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
 ![](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
 ## 三、启用Action
