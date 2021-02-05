@@ -17,11 +17,11 @@
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 
 2，点击**code**，再点击笔,在第十行随便输入东西，然后往下滑动点击commint change
-![](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
-![](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
-![](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
+![步骤1](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
+![步骤2](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
+![步骤3](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
-Actions  > Cloud189Checkin > build  
+Actions  > xioabei daka > build  
 能看到如下图所示，表示成功  
 ![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
 
