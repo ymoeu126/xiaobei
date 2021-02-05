@@ -33,19 +33,15 @@ session = requests.Session()
 q1=session.get(yanzhengma_url,headers=headers )
 code=q1.json()['showCode']
 uuid=q1.json()['uuid']
-print(username)
-print(password)
-print(SCKEY)
 
 post_data={
     "username":username,
     "password":password,
     "code":code,
-    "uuid":uuid}
+    "uuid":uuid
+}
 
 q2=session.post(login_url,json = post_data,headers = headers)
-print(q2.text)
-'''
 token=q2.json()['token']
 headers["Authorization"] ='Bearer ' +token
 
@@ -59,4 +55,4 @@ server_data = {
     "desp": response2.json()['msg']
 }
 requests.post(api, data = server_data)
-'''
+
