@@ -8,6 +8,7 @@ import json
 username= "XIAOBEI_USERNAME"
 pd= "XIAOBEI_PASSWORD"
 password=base64.b64encode(pd.encode())
+password=password..decode()
 SCKEY = "XIAOBEI_SCKEY"
 
 temperature={
@@ -35,7 +36,7 @@ uuid=q1.json()['uuid']
 
 post_data={
     "username":username,
-    "password":password.decode(),
+    "password":password,
     "code":code,
     "uuid":uuid}
 
