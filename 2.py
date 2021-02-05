@@ -3,10 +3,10 @@ import base64
 import os
 import json
 
-username= os.environ["XIAOBEI_USERNAME"]
-pd= os.environ["XIAOBEI_PASSWORD"]
+username= os.environ["XIAOBEI_USERNAME"][0]
+pd= os.environ["XIAOBEI_PASSWORD"][0]
 password=base64.b64encode(pd.encode())
-SCKEY = os.environ["XIAOBEI_SCKEY"]
+SCKEY = os.environ["XIAOBEI_SCKEY"][0]
 
 temperature={
     "temperature": "36.3",
