@@ -5,11 +5,11 @@ import base64
 import os
 import json
 
-username= "XIAOBEI_USERNAME"
-pd= "XIAOBEI_PASSWORD"
+username= os.getenv("XIAOBEI-USERNAME")
+pd= os.getenv("XIAOBEI_PASSWORD")
 password=base64.b64encode(pd.encode())
 password=password.decode()
-SCKEY = "XIAOBEI_SCKEY"
+SCKEY = os.getenv("XIAOBEI_SCKEY")
 
 temperature={
     "temperature": "36.3",
@@ -35,6 +35,7 @@ code=q1.json()['showCode']
 uuid=q1.json()['uuid']
 print(username)
 print(password)
+print(SCKEY)
 
 post_data={
     "username":username,
