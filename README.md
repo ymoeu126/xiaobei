@@ -16,14 +16,16 @@
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 
-2，点击**code**，再点击笔,在第十行随便输入东西，然后往下滑动点击commint change
+2，点击**code**，然后往下滑动点击commint change
 ![步骤1](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
+3,再点击笔,在第十行随便输入东西
 ![步骤2](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
+4然后往下滑动点击commint change
 ![步骤3](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
 Actions  > xioabei daka > build  
 能看到如下图所示，表示成功  
-![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
+![](![](https://i.loli.net/2021/02/05/iXz96WZeScOIGbE.png))
 
 此后，将会在每天10:00和22:00各签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改 
