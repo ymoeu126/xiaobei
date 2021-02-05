@@ -43,13 +43,13 @@ post_data={
     "code":code,
     "uuid":uuid}
 
-q2=session.post(login_url,data = post_data,headers = headers)
+q2=session.post(login_url,json = post_data,headers = headers)
 print(q2.text)
 '''
 token=q2.json()['token']
 headers["Authorization"] ='Bearer ' +token
 
-response2 = session.post(health_url,data = temperature,headers = headers)
+response2 = session.post(health_url,json = temperature,headers = headers)
 print(response2.json())
 
 #server酱
