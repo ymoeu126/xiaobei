@@ -46,7 +46,7 @@ token=q2.json()['token']
 headers["Authorization"] ='Bearer ' +token
 
 response2 = session.post(health_url,json = temperature,headers = headers)
-print(response2.json())
+print(response2.json()['msg'])
 
 #server酱
 api = "https://sc.ftqq.com/"+SCKEY+".send"
