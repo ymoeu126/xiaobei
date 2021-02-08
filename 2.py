@@ -13,7 +13,7 @@ pd= os.getenv("XIAOBEI_PASSWORD")
 password=base64.b64encode(pd.encode())
 password=password.decode()
 SCKEY = os.getenv("XIAOBEI_SCKEY")
-Qmsg_url = os.getnev('XIAOBEI_Qmsg')
+
 #健康打卡提交的信息
 temperature={
     "temperature": "36.3",
@@ -85,7 +85,7 @@ def notify(_title, _message=None):
     _test =_title+_data
     print(_test)
     weixin_response = requests.post(f"https://sc.ftqq.com/{SCKEY}.send", {"text": _title, "desp": _test},verify=False)
-    qq_response = requests.post(url=Qmsg_url, {"msg": _test},verify=False)
+    qq_response = requests.post('https://qmsg.zendee.cn/send/c5d807f21ef662b4d61833bc3045d537', {"msg": _test},verify=False)
 if __name__ == "__main__":
     if not username or not password:
         notify("用户名或账号为空，请仔细阅读配置步骤！")
