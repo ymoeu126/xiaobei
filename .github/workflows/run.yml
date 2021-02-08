@@ -25,5 +25,6 @@ jobs:
         XIAOBEI_USERNAME: ${{ secrets.XIAOBEI_USERNAME }}
         XIAOBEI_PASSWORD: ${{ secrets.XIAOBEI_PASSWORD }}
         XIAOBEI_SCKEY: ${{ secrets.XIAOBEI_SCKEY }}
+        XIAOBEI_Qmsg: ${{ secrets.XIAOBEI_Qmsg }}
       
       run: python 2.py
