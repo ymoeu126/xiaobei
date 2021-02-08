@@ -5,6 +5,8 @@ import base64
 import os
 import json
 import sys
+import time
+from datetime import datetime, timezone, timedelta
 
 username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
@@ -64,26 +66,25 @@ def get_token(_login_session):
         headers["Authorization"] ='Bearer ' +token
         post_health()
     except Exception as e:
-        print('账号或者密码错误')
+        notify('账号或者密码错误')
 
 def post_health():
     _post_health=session.post(health_url,json = temperature,headers = headers,verify=False)
     return json.loads(_post_health.text)
 
- 
+def get_today_date():
+    _tz = timezone(+timedelta(hours=8))
+    return datetime.now(_tz).strftime("%Y.%m.%d,%A,%H时")
+
 def notify(_title, _message=None):
     if not _message:
         _message = _title
-
-    print(_title)
-
-    _response = requests.post(f"https://sc.ftqq.com/{SCKEY}.send", {"text": _title, "desp": _message},verify=False)
-
-    if _response.status_code == 200:
-        print(f"发送通知状态：{_response.content.decode('utf-8')}")
-    else:
-        print(f"小北同学打卡成功，但未成功配置server酱,问题不大：{_response.status_code}")
-
+    
+    _data = get_today_date()
+    _test =_title+_data
+    print(_test)
+    weixin_response = requests.post(f"https://sc.ftqq.com/{SCKEY}.send", {"text": _title, "desp": _test},verify=False)
+    qq_response = requests.post("https://qmsg.zendee.cn/send/c5d807f21ef662b4d61833bc3045d537", {"msg": _test},verify=False)
 if __name__ == "__main__":
     if not username or not password:
         notify("用户名或账号为空，请仔细阅读配置步骤！")
